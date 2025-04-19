@@ -5,11 +5,11 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "",
+SESSION_ID: process.env.SESSION_ID || "Pkdriller~hDNzFB5a#u_oBtjlaILUt-nDFyAtL79CgE4FQ1YK9fp2Hv6lUaGc",
 // add your Session Id 
 PREFIX: process.env.PREFIX || ".",
 // add your prifix for bot
-BOT_NAME: process.env.BOT_NAME || "✦ NEXUS ✦ XMD ✦",
+BOT_NAME: process.env.BOT_NAME || "✦ YOUNGT ✦ XMD ✦",
 // add bot namw here for menu
 CUSTOM_REACT: process.env.CUSTOM_REACT || "false",
 // make this true for custum emoji react    
@@ -17,9 +17,9 @@ CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "💝,💖,💗,❤️�
 // chose custom react emojis by yourself 
 DELETE_LINKS: process.env.DELETE_LINKS || "false",
 // automatic delete links witho remove member 
-OWNER_NUMBER: process.env.OWNER_NUMBER || "254112192119",
+OWNER_NUMBER: process.env.OWNER_NUMBER || "27717578940",
 // add your bot owner number
-OWNER_NAME: process.env.OWNER_NAME || "✦ NEXUS ✦ XMD ✦",
+OWNER_NAME: process.env.OWNER_NAME || "✦ YOUNG TEE ✦",
 // add bot owner name
 DESCRIPTION: process.env.DESCRIPTION || "*© ✦ NEXUS ✦ XMD ✦*",
 // add bot owner name    
@@ -39,13 +39,13 @@ AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "false",
 // make true if you want auto reply on status 
 AUTO_STATUS__MSG: process.env.AUTO_STATUS__MSG || "*🎉👀 Seen by NEXUS XMD 🚀🔥*",
 // set the auto reply massage on status reply    
-MODE: process.env.MODE || "public",
+MODE: process.env.MODE || "private",
 // make bot public-private-inbox-group 
-ANTI_LINK: process.env.ANTI_LINK || "false",
+ANTI_LINK: process.env.ANTI_LINK || "true",
 // make anti link true,false for groups 
 AUTO_VOICE: process.env.AUTO_VOICE || "false",
 // make true for send automatic voices
-AUTO_STICKER: process.env.AUTO_STICKER || "false",
+AUTO_STICKER: process.env.AUTO_STICKER || "true",
 // make true for automatic stickers 
 AUTO_REPLY: process.env.AUTO_REPLY || "false",
 // make true or false automatic text reply 
@@ -55,7 +55,7 @@ OWNER_REACT: process.env.OWNER_REACT || "false",
 // make it true or fasle for only react on owner msg only 
 ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "true",
 // maks true for always online 
-PUBLIC_MODE: process.env.PUBLIC_MODE || "true",
+PUBLIC_MODE: process.env.PUBLIC_MODE || "false",
 // make false if want private mod
 AUTO_TYPING: process.env.AUTO_TYPING || "true",
 // true for automatic show typing   
